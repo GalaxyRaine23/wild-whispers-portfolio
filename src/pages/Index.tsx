@@ -68,7 +68,7 @@ const Index = () => {
               <CardContent className="space-y-4 p-6">
                 <div>
                   <h3 className="text-lg font-semibold text-nature-green">Bachelor of Science in Biology</h3>
-                  <p className="text-sm text-gray-500">State University, Expected 2027</p>
+                  <p className="text-sm text-gray-500">University of Houston Clear Lake, Expected 2027</p>
                   <p className="mt-2 text-gray-700"> 
                     Concentration in Wildlife Ecology and Conservation Biology.
                   </p>
