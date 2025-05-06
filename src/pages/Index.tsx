@@ -227,14 +227,14 @@ const Index = () => {
               <div className="space-y-4">
                 <div>
                   <h3 className="text-lg font-semibold">Email</h3>
-                  <p className="text-nature-green">jane.doe@example.com</p>
+                  <p className="text-nature-green">MeganRozelle09@gmail.com</p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold">Professional Profiles</h3>
-                  <p className="text-gray-700">ResearchGate: jane-doe</p>
-                  <p className="text-gray-700">iNaturalist: jane_doe_biologist</p>
+                  
+                  
+                  
                 </div>
-                <Button className="mt-4 bg-nature-green hover:bg-nature-leaf">Send Message</Button>
+                
               </div>
             </CardContent>
           </Card>
