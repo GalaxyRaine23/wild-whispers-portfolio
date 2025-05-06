@@ -235,34 +235,18 @@ const Index = () => {
         </Carousel>
       </section>
 
-      {/* Extracurricular and Volunteer Section */}
+      {/* Volunteer Section */}
       <section className="container mx-auto px-4 py-16">
         <div className="flex items-center justify-center mb-8">
-          <Leaf className="h-6 w-6 text-nature-green mr-2" />
-          <h2 className="text-3xl font-bold text-nature-green">Extracurricular & Volunteer Work</h2>
+          <PawPrint className="h-6 w-6 text-nature-green mr-2" />
+          <h2 className="text-3xl font-bold text-nature-green">Volunteer Work</h2>
         </div>
         <div className="mx-auto max-w-3xl space-y-6">
           <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
             <CardHeader className="bg-nature-mint/30">
               <CardTitle className="flex items-center gap-2">
-                <TreeDeciduous className="h-5 w-5 text-nature-green" />
-                Campus Ecology Club
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="p-6">
-              <p className="text-gray-700">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. 
-                Organized campus sustainability initiatives and educational events about local ecosystems 
-                and conservation practices.
-              </p>
-            </CardContent>
-          </Card>
-          
-          <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
-            <CardHeader className="bg-nature-mint/30">
-              <CardTitle className="flex items-center gap-2">
                 <PawPrint className="h-5 w-5 text-nature-green" />
-                Habitat Restoration Volunteer
+                Volunteer at Three Little Pitties Rescue
               </CardTitle>
             </CardHeader>
             <CardContent className="p-6">
