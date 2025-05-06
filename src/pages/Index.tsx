@@ -11,7 +11,7 @@ const Index = () => {
         <div className="container relative mx-auto px-4 py-12 text-center text-white">
           <div className="flex items-center justify-center mb-4">
             <PawPrint className="h-10 w-10 mr-2" />
-            <h1 className="font-sans text-5xl font-bold tracking-tight">Jane Doe</h1>
+            <h1 className="font-sans text-5xl font-bold tracking-tight">Megan Rozelle</h1>
           </div>
           <p className="mb-6 text-xl">Wildlife Conservation Biologist</p>
           <div className="flex justify-center gap-4">
@@ -19,10 +19,7 @@ const Index = () => {
               <Mail className="h-4 w-4" />
               Contact Me
             </Button>
-            <Button className="gap-2 bg-transparent border-2 border-white hover:bg-white/20" variant="outline">
-              <FileText className="h-4 w-4" />
-              Download Resume
-            </Button>
+            
           </div>
         </div>
       </section>
@@ -36,16 +33,8 @@ const Index = () => {
           </div>
           <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
             <CardContent className="p-6">
-              <p className="mb-4 text-gray-700">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis nec magna pharetra aliquet. 
-                As an aspiring wildlife conservation biologist, I am dedicated to preserving biodiversity through 
-                research, education, and conservation efforts.
-              </p>
-              <p className="text-gray-700">
-                Praesent ut turpis ac risus egestas tristique. Integer ac nisl sed magna suscipit aliquam. 
-                My goal is to contribute to sustainable ecosystem management and species protection while advancing 
-                scientific understanding of wildlife ecology and behavior.
-              </p>
+              <p className="mb-4 text-gray-700">As an aspiring wildlife conservation biologist, I am dedicated to preserving biodiversity through research, education, and conservation efforts.</p>
+              <p className="text-gray-700">My goal is to contribute to sustainable ecosystem management and species protection while advancing scientific understanding of wildlife ecology and behavior.</p>
             </CardContent>
           </Card>
         </div>
