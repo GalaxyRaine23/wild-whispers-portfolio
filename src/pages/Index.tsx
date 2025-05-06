@@ -1,8 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Mail, Book, Award, Briefcase, FileText, Leaf, Tree, PawPrint, Fish } from "lucide-react";
+import { Mail, Book, Award, Briefcase, FileText, Leaf, TreeDeciduous, PawPrint, Fish } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 
 const Index = () => {
@@ -132,7 +131,7 @@ const Index = () => {
       {/* Skills Section */}
       <section className="container mx-auto px-4 py-16">
         <div className="flex items-center justify-center mb-8">
-          <Tree className="h-6 w-6 text-nature-green mr-2" />
+          <TreeDeciduous className="h-6 w-6 text-nature-green mr-2" />
           <h2 className="text-3xl font-bold text-nature-green">Skills</h2>
         </div>
         <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 md:grid-cols-2">
@@ -246,7 +245,7 @@ const Index = () => {
           <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
             <CardHeader className="bg-nature-mint/30">
               <CardTitle className="flex items-center gap-2">
-                <Tree className="h-5 w-5 text-nature-green" />
+                <TreeDeciduous className="h-5 w-5 text-nature-green" />
                 Campus Ecology Club
               </CardTitle>
             </CardHeader>
@@ -309,7 +308,7 @@ const Index = () => {
           <div className="flex items-center justify-center gap-2 mb-2">
             <PawPrint className="h-5 w-5" />
             <Leaf className="h-5 w-5" />
-            <Tree className="h-5 w-5" />
+            <TreeDeciduous className="h-5 w-5" />
           </div>
           <p>&copy; 2025 Jane Doe | Wildlife Conservation Biology Portfolio</p>
         </div>
