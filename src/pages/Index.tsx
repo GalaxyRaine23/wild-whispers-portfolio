@@ -3,10 +3,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Mail, Book, Award, Briefcase, FileText, Leaf, TreeDeciduous, PawPrint, Fish } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-nature-mint/20 to-nature-water/10">
+  return <div className="min-h-screen bg-gradient-to-b from-nature-mint/20 to-nature-water/10">
       {/* Hero Section */}
       <section className="relative bg-[url('/hero-bg.jpg')] bg-cover bg-center py-20">
         <div className="absolute inset-0 bg-nature-green/60"></div>
@@ -81,15 +79,15 @@ const Index = () => {
               <CardContent className="space-y-4 p-6">
                 <div>
                   <h3 className="text-lg font-semibold text-nature-green">Bachelor of Science in Biology</h3>
-                  <p className="text-sm text-gray-500">State University, Expected 2026</p>
+                  <p className="text-sm text-gray-500">State University, Expected 2027</p>
                   <p className="mt-2 text-gray-700">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. 
                     Concentration in Wildlife Ecology and Conservation Biology.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-nature-green">Associate of Science</h3>
-                  <p className="text-sm text-gray-500">Community College, 2022</p>
+                  <h3 className="text-lg font-semibold text-nature-green">High School Diploma</h3>
+                  <p className="text-sm text-gray-500">Clear Brook High School, 2009</p>
                   <p className="mt-2 text-gray-700">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. 
                     Focus on Environmental Sciences and Biology.
@@ -187,8 +185,8 @@ const Index = () => {
             <CarouselItem>
               <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
                 <CardHeader className="bg-nature-water/20">
-                  <CardTitle>Wetland Ecosystem Analysis</CardTitle>
-                  <CardDescription>Academic Research Project</CardDescription>
+                  <CardTitle>Professional Wildlife Conservationist</CardTitle>
+                  <CardDescription>Post Graduation Aspiration</CardDescription>
                 </CardHeader>
                 <CardContent className="p-6">
                   <p className="text-gray-700">
@@ -297,8 +295,6 @@ const Index = () => {
           <p>&copy; 2025 Jane Doe | Wildlife Conservation Biology Portfolio</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
