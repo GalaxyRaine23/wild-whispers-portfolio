@@ -126,11 +126,11 @@ const Index = () => {
             <CardContent className="p-6">
               <ul className="list-inside list-disc space-y-2">
                 <li>Species Identification & Classification</li>
-                <li>Ecological Survey Methodologies</li>
-                <li>Laboratory Techniques & Sample Analysis</li>
-                <li>Geographic Information Systems (GIS)</li>
+                
+                <li>Laboratory Techniques</li>
+                
                 <li>Statistical Analysis & Data Visualization</li>
-                <li>Field Research & Specimen Collection</li>
+                
               </ul>
             </CardContent>
           </Card>
@@ -145,11 +145,11 @@ const Index = () => {
             <CardContent className="p-6">
               <ul className="list-inside list-disc space-y-2">
                 <li>Scientific Writing & Communication</li>
-                <li>Project Planning & Management</li>
+                
                 <li>Collaborative Research</li>
                 <li>Critical Thinking & Problem Solving</li>
                 <li>Public Education & Outreach</li>
-                <li>Environmental Ethics & Stewardship</li>
+                
               </ul>
             </CardContent>
           </Card>
@@ -172,11 +172,7 @@ const Index = () => {
                   <CardDescription>Post Graduation Aspiration</CardDescription>
                 </CardHeader>
                 <CardContent className="p-6">
-                  <p className="text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
-                    Conducted research on species diversity in local wetland ecosystems, focusing on amphibian 
-                    populations and water quality indicators.
-                  </p>
+                  <p className="text-gray-700">I hope to join the field of Wildlife Conservation to help preserve and protect the beauty of the natural world we live in</p>
                 </CardContent>
               </Card>
             </CarouselItem>
