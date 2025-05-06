@@ -90,24 +90,18 @@ const Index = () => {
             <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
               <CardHeader className="bg-nature-mint/30">
                 <CardTitle>Work History</CardTitle>
-                <CardDescription>My professional experience in conservation and fieldwork</CardDescription>
+                <CardDescription>My professional experience</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4 p-6">
                 <div>
-                  <h3 className="text-lg font-semibold text-nature-green">Research Assistant</h3>
-                  <p className="text-sm text-gray-500">University Field Research Station, Summer 2023</p>
-                  <p className="mt-2 text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat libero vel magna tempor, 
-                    eget varius enim ullamcorper. Assisted with data collection for amphibian population monitoring.
-                  </p>
+                  <h3 className="text-lg font-semibold text-nature-green">House Cleaner</h3>
+                  <p className="text-sm text-gray-500">01/2020 - 04/2025</p>
+                  <p className="mt-2 text-gray-700">Cleaning houses both residential and commercial as a team member first, then later as a team leader</p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-nature-green">Conservation Volunteer</h3>
-                  <p className="text-sm text-gray-500">Wildlife Preservation Society, 2021-Present</p>
-                  <p className="mt-2 text-gray-700">
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                    Participated in habitat restoration and public education initiatives.
-                  </p>
+                  
+                  
+                  
                 </div>
               </CardContent>
             </Card>
