@@ -209,11 +209,7 @@ const Index = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="p-6">
-              <p className="text-gray-700">
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                Participated in monthly restoration events at local nature preserves, removing invasive species 
-                and planting native vegetation.
-              </p>
+              <p className="text-gray-700">Volunteer at a local animal rescue and rehabilitation organization. Helped clean animal pens and feed the animals.</p>
             </CardContent>
           </Card>
         </div>
