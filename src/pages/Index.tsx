@@ -179,33 +179,15 @@ const Index = () => {
             
             <CarouselItem>
               <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
-                <CardHeader className="bg-nature-water/20">
-                  <CardTitle>Conservation Policy Review</CardTitle>
-                  <CardDescription>Term Paper</CardDescription>
-                </CardHeader>
-                <CardContent className="p-6">
-                  <p className="text-gray-700">
-                    Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. 
-                    Analyzed the effectiveness of current conservation policies for endangered species 
-                    protection and proposed evidence-based improvements.
-                  </p>
-                </CardContent>
+                
+                
               </Card>
             </CarouselItem>
             
             <CarouselItem>
               <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
-                <CardHeader className="bg-nature-water/20">
-                  <CardTitle>Migratory Bird Monitoring</CardTitle>
-                  <CardDescription>Field Research Project</CardDescription>
-                </CardHeader>
-                <CardContent className="p-6">
-                  <p className="text-gray-700">
-                    Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. 
-                    Participated in seasonal bird counts and habitat assessments, contributing data to a 
-                    nationwide monitoring program.
-                  </p>
-                </CardContent>
+                
+                
               </Card>
             </CarouselItem>
           </CarouselContent>
