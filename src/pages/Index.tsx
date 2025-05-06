@@ -69,16 +69,14 @@ const Index = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-nature-green">Bachelor of Science in Biology</h3>
                   <p className="text-sm text-gray-500">State University, Expected 2027</p>
-                  <p className="mt-2 text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. 
+                  <p className="mt-2 text-gray-700"> 
                     Concentration in Wildlife Ecology and Conservation Biology.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-nature-green">High School Diploma</h3>
                   <p className="text-sm text-gray-500">Clear Brook High School, 2009</p>
-                  <p className="mt-2 text-gray-700">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. 
+                  <p className="mt-2 text-gray-700"> 
                     Focus on Environmental Sciences and Biology.
                   </p>
                 </div>
@@ -249,7 +247,7 @@ const Index = () => {
             <Leaf className="h-5 w-5" />
             <TreeDeciduous className="h-5 w-5" />
           </div>
-          <p>&copy; 2025 Jane Doe | Wildlife Conservation Biology Portfolio</p>
+          <p>&copy; 2025 Megan Rozelle | Wildlife Conservation Biology Portfolio</p>
         </div>
       </footer>
     </div>;
