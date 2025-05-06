@@ -1,10 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Mail, Book, Award, Briefcase, FileText, Leaf, TreeDeciduous, PawPrint, Fish } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
-import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Index = () => {
   return (
@@ -38,31 +36,20 @@ const Index = () => {
             <Leaf className="h-6 w-6 text-nature-green mr-2" />
             <h2 className="text-3xl font-bold text-nature-green">About Me</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
-              <CardContent className="p-6">
-                <p className="mb-4 text-gray-700">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis nec magna pharetra aliquet. 
-                  As an aspiring wildlife conservation biologist, I am dedicated to preserving biodiversity through 
-                  research, education, and conservation efforts.
-                </p>
-                <p className="text-gray-700">
-                  Praesent ut turpis ac risus egestas tristique. Integer ac nisl sed magna suscipit aliquam. 
-                  My goal is to contribute to sustainable ecosystem management and species protection while advancing 
-                  scientific understanding of wildlife ecology and behavior.
-                </p>
-              </CardContent>
-            </Card>
-            <div className="overflow-hidden rounded-lg shadow-lg">
-              <AspectRatio ratio={4/3}>
-                <img 
-                  src="https://images.unsplash.com/photo-1465379944081-7f47de8d74ac" 
-                  alt="Wildlife conservation image showing brown cattle in forest" 
-                  className="object-cover w-full h-full"
-                />
-              </AspectRatio>
-            </div>
-          </div>
+          <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
+            <CardContent className="p-6">
+              <p className="mb-4 text-gray-700">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis nec magna pharetra aliquet. 
+                As an aspiring wildlife conservation biologist, I am dedicated to preserving biodiversity through 
+                research, education, and conservation efforts.
+              </p>
+              <p className="text-gray-700">
+                Praesent ut turpis ac risus egestas tristique. Integer ac nisl sed magna suscipit aliquam. 
+                My goal is to contribute to sustainable ecosystem management and species protection while advancing 
+                scientific understanding of wildlife ecology and behavior.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
@@ -199,15 +186,6 @@ const Index = () => {
           <CarouselContent>
             <CarouselItem>
               <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
-                <div className="overflow-hidden rounded-t-lg">
-                  <AspectRatio ratio={16/9}>
-                    <img 
-                      src="https://images.unsplash.com/photo-1518877593221-1f28583780b4" 
-                      alt="Humpback whale jumping in the ocean" 
-                      className="object-cover w-full h-full"
-                    />
-                  </AspectRatio>
-                </div>
                 <CardHeader className="bg-nature-water/20">
                   <CardTitle>Wetland Ecosystem Analysis</CardTitle>
                   <CardDescription>Academic Research Project</CardDescription>
@@ -224,15 +202,6 @@ const Index = () => {
             
             <CarouselItem>
               <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
-                <div className="overflow-hidden rounded-t-lg">
-                  <AspectRatio ratio={16/9}>
-                    <img 
-                      src="https://images.unsplash.com/photo-1466721591366-2d5fba72006d" 
-                      alt="Antelopes and zebras on a field" 
-                      className="object-cover w-full h-full"
-                    />
-                  </AspectRatio>
-                </div>
                 <CardHeader className="bg-nature-water/20">
                   <CardTitle>Conservation Policy Review</CardTitle>
                   <CardDescription>Term Paper</CardDescription>
@@ -249,15 +218,6 @@ const Index = () => {
             
             <CarouselItem>
               <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
-                <div className="overflow-hidden rounded-t-lg">
-                  <AspectRatio ratio={16/9}>
-                    <img 
-                      src="https://images.unsplash.com/photo-1441057206919-63d19fac2369" 
-                      alt="Two penguins standing on a rock" 
-                      className="object-cover w-full h-full"
-                    />
-                  </AspectRatio>
-                </div>
                 <CardHeader className="bg-nature-water/20">
                   <CardTitle>Migratory Bird Monitoring</CardTitle>
                   <CardDescription>Field Research Project</CardDescription>
@@ -283,61 +243,35 @@ const Index = () => {
         </div>
         <div className="mx-auto max-w-3xl space-y-6">
           <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
-            <div className="grid grid-cols-1 md:grid-cols-3">
-              <div className="md:col-span-1 overflow-hidden md:rounded-l-lg">
-                <AspectRatio ratio={1}>
-                  <img 
-                    src="https://images.unsplash.com/photo-1472396961693-142e6e269027" 
-                    alt="Deer beside trees and mountain" 
-                    className="object-cover w-full h-full"
-                  />
-                </AspectRatio>
-              </div>
-              <div className="md:col-span-2">
-                <CardHeader className="bg-nature-mint/30">
-                  <CardTitle className="flex items-center gap-2">
-                    <TreeDeciduous className="h-5 w-5 text-nature-green" />
-                    Campus Ecology Club
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="p-6">
-                  <p className="text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. 
-                    Organized campus sustainability initiatives and educational events about local ecosystems 
-                    and conservation practices.
-                  </p>
-                </CardContent>
-              </div>
-            </div>
+            <CardHeader className="bg-nature-mint/30">
+              <CardTitle className="flex items-center gap-2">
+                <TreeDeciduous className="h-5 w-5 text-nature-green" />
+                Campus Ecology Club
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
+              <p className="text-gray-700">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. 
+                Organized campus sustainability initiatives and educational events about local ecosystems 
+                and conservation practices.
+              </p>
+            </CardContent>
           </Card>
           
           <Card className="bg-white/80 backdrop-blur-sm border-nature-mint/50 shadow-lg">
-            <div className="grid grid-cols-1 md:grid-cols-3">
-              <div className="md:col-span-1 overflow-hidden md:rounded-l-lg">
-                <AspectRatio ratio={1}>
-                  <img 
-                    src="https://images.unsplash.com/photo-1438565434616-3ef039228b15" 
-                    alt="Two mountain goats" 
-                    className="object-cover w-full h-full"
-                  />
-                </AspectRatio>
-              </div>
-              <div className="md:col-span-2">
-                <CardHeader className="bg-nature-mint/30">
-                  <CardTitle className="flex items-center gap-2">
-                    <PawPrint className="h-5 w-5 text-nature-green" />
-                    Habitat Restoration Volunteer
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="p-6">
-                  <p className="text-gray-700">
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                    Participated in monthly restoration events at local nature preserves, removing invasive species 
-                    and planting native vegetation.
-                  </p>
-                </CardContent>
-              </div>
-            </div>
+            <CardHeader className="bg-nature-mint/30">
+              <CardTitle className="flex items-center gap-2">
+                <PawPrint className="h-5 w-5 text-nature-green" />
+                Habitat Restoration Volunteer
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
+              <p className="text-gray-700">
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                Participated in monthly restoration events at local nature preserves, removing invasive species 
+                and planting native vegetation.
+              </p>
+            </CardContent>
           </Card>
         </div>
       </section>
